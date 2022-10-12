@@ -1,0 +1,389 @@
+body {
+  margin: 0%;
+  padding: 40px;
+  font-family: "Rubik", sans-serif;
+}
+
+.logo {
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-bar ul a {
+  margin-right: 100px;
+  text-decoration: none;
+  color: #252b46;
+}
+
+nav ul {
+  justify-content: space-around;
+  display: flex;
+  margin-left: 400px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  background: #fa5757;
+  border: #fff solid;
+  border-radius: 10px;
+}
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.back {
+  background: #5368df;
+  width: 500px;
+  height: 50vh;
+  border-radius: 0 0 0 200px;
+  margin-top: 100px;
+  margin-right: 200px;
+}
+
+.back-2 {
+  margin-top: -200px;
+}
+.back-2 img {
+  width: 550px;
+  margin-top: -190px;
+}
+
+.hero {
+  margin-right: -150px;
+}
+.hero img {
+  width: 400px;
+}
+
+.simple {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.btn-2 {
+  width: 130px;
+  height: 50px;
+  background: #5368df;
+  border: #fff solid;
+  border-radius: 10px;
+}
+.btn-2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-3 {
+  width: 130px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 3px #e9e6e6;
+}
+.btn-3 a {
+  text-decoration: none;
+  color: #252b46;
+}
+
+.Features {
+  text-align: center;
+}
+
+.line {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.Bookmarking {
+  border-bottom: #cf3232 10px;
+}
+.Bookmarking a {
+  color: #9194a1;
+  text-decoration: none;
+}
+.Bookmarking hr {
+  width: 200px;
+  margin-right: -20px;
+  background: #cf3232;
+}
+
+.Bookmarking hr:hover {
+  background: #cf3232;
+  width: 500px;
+  size: 20px;
+}
+
+.Searching hr {
+  width: 200px;
+  margin-right: -20px;
+}
+
+.Sharing a {
+  color: #fa5757;
+  text-decoration: none;
+}
+
+.Bookmark {
+  display: flex;
+  margin-top: 50px;
+  gap: 100px;
+}
+
+.back-22 {
+  width: 500px;
+  height: 40vh;
+  background: #5368df;
+  border: #fff solid;
+  border-radius: 0 0 100px;
+}
+
+.bookmark-22 {
+  margin-bottom: -170px;
+}
+.bookmark-22 img {
+  width: 500px;
+  margin-left: 100px;
+}
+
+.btn-4 {
+  width: 130px;
+  height: 50px;
+  background: #5368df;
+  border: #fff solid;
+  border-radius: 10px;
+}
+.btn-4 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pipeline {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.Chrome {
+  width: 200px;
+  height: 300px;
+  box-shadow: 5px 5px 20px 3px #e9e6e6;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.Chrome img {
+  margin-top: 10px;
+}
+
+.Firefox {
+  width: 200px;
+  height: 300px;
+  box-shadow: 0px 0px 20px 3px #e9e6e6;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.Firefox img {
+  margin-top: 10px;
+}
+
+.Opera {
+  width: 200px;
+  height: 300px;
+  box-shadow: 5px 5px 20px 3px #e9e6e6;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+.Opera img {
+  margin-top: 10px;
+}
+
+.btn-5 {
+  width: 180px;
+  height: 40px;
+  background: #5368df;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 20px 3px #e9e6e6;
+}
+.btn-5 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-6 {
+  width: 180px;
+  height: 40px;
+  background: #fff;
+  border: #fff solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 20px 3px #e9e6e6;
+}
+.btn-6 a {
+  text-decoration: none;
+  color: #5368df;
+}
+
+.btn-7 {
+  width: 180px;
+  height: 40px;
+  background: #5368df;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 20px 3px #e9e6e6;
+}
+.btn-7 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.common {
+  text-align: center;
+}
+
+.feed-back hr {
+  width: 500px;
+}
+.feed-back a {
+  text-decoration: none;
+  color: black;
+  margin-right: 340px;
+}
+
+.feed-back-2 {
+  text-align: center;
+}
+.feed-back-2 hr {
+  width: 500px;
+}
+.feed-back-2 a {
+  text-decoration: none;
+  color: black;
+  margin-right: 191px;
+}
+
+.feed-back-3 {
+  text-align: center;
+}
+.feed-back-3 hr {
+  width: 500px;
+}
+.feed-back-3 a {
+  text-decoration: none;
+  color: black;
+  margin-right: 311px;
+}
+
+.feed-back-4 {
+  text-align: center;
+}
+.feed-back-4 hr {
+  width: 500px;
+}
+.feed-back-4 a {
+  text-decoration: none;
+  color: black;
+  margin-right: 193px;
+}
+
+.icon-1 {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.btn-8 {
+  width: 120px;
+  height: 40px;
+  background: #5368df;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 3px #e9e6e6;
+}
+.btn-8 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Stay {
+  background: #5368df;
+  height: 45vh;
+  margin-top: 50px;
+}
+
+.Stay {
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+.Stay p {
+  color: #fff;
+  font-size: 18px;
+}
+.Stay h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.btn-9 {
+  width: 200px;
+  height: 60px;
+  background: #fa5757;
+  border: none;
+  border-radius: 10px;
+}
+.btn-9 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#email {
+  width: 350px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  color: #9194a1;
+}
+
+.stay-2 {
+  padding: 20px;
+}
+
+.foot {
+  background: #252b46;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.foot-2 {
+  margin-top: 50px;
+  display: flex;
+}
+
+.foot-3 {
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.foot-3 img {
+  padding: 10px;
+}
+
+.foot-4 a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
